@@ -1,0 +1,32 @@
+GET {{host}}/exchange/list
+Content-Type: application/json
+
+###
+GET {{host}}/currency/exchange
+Content-Type: application/json
+
+{
+  "typeMoney":"EUR",
+  "amount":126.43823492224048
+}
+
+###
+GET{{host}}/lari/exchange
+Content-Type: application/json
+
+{
+  "typeMoney":"EUR",
+  "amount":500
+}
+
+###
+GET{{host}}/exchange
+Content-Type: application/json
+
+{
+
+  "yourmoneytype":"EUR",
+  "amount":100,
+  "moneytype":"AED"
+}
+
